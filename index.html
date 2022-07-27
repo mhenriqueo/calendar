@@ -3,96 +3,135 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendário</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="script/main.js"></script>
 </head>
 
 <body>
-    <div class="conteudo">
-        <div class="calendario">
-            <header>
-                <h2 id="mes">Abril</h2>
+    <header>
+        <div>
+            <div>
+                <h1 id="mes">Abril</h1>
+                <h2 id="ano"></h2>
+            </div>
+
+            <div>
                 <a class="btn-ant" id="btn-ant">
                     <</a>
                         <a class="btn-pro" id="btn-prev">></a>
-            </header>
+            </div>
 
-            <table>
-                <thead>
-                    <tr>
-                        <td>Dom</td>
-                        <td>Seg</td>
-                        <td>Ter</td>
-                        <td>Qua</td>
-                        <td>Qui</td>
-                        <td>Sex</td>
-                        <td>Sáb</td>
-                    </tr>
-                </thead>
+            <div>
+                <a class="btn-today" id="btn-today">Hoje</a>
+            </div>
 
-                <tbody id="dias">
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                    </tr>
-                </tbody>
-            </table>
-            <footer>
-                <h2 id="ano"></h2>
-            </footer>
+            <div>
+                <a class="btn-mes" id="btn-mes">Mês</a>
+            </div>
+
+            <div>
+                <a class="btn-semana" id="btn-semana">Semana</a>
+            </div>
+
+            <div>
+                <a class="btn-dia" id="btn-dia">Dia</a>
+            </div>
+
+            <div>
+                <a class="btn-lista" id="btn-lista">Lista</a>
+            </div>
+
         </div>
-    </div>
+    </header>
+
+    <main>
+        <section id="sales">
+            <div class="calendar-container">
+                <div class="calendar-card">
+                    <div>
+                        <table class="calendar-sales-table">
+                            <thead>
+                                <tr>
+                                    <td>Dom.</td>
+                                    <td>Seg.</td>
+                                    <td>Ter.</td>
+                                    <td>Qua.</td>
+                                    <td>Qui.</td>
+                                    <td>Sex.</td>
+                                    <td>Sáb.</td>
+                                </tr>
+                            </thead>
+
+                            <tbody id="dias">
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 id="ano"></h2>
+    </footer>
+
 </body>
 
 </html>
